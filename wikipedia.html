@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wikipedia-like Page</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f6f6f6;
+            color: #222;
+        }
+
+        .wiki-container {
+            max-width: 1000px;
+            background-color: #fff;
+            margin: 20px auto;
+            padding: 20px 40px;
+            border: 1px solid #a2a9b1;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2, h3 {
+            border-bottom: 1px solid #a2a9b1;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+        h2 {
+            font-size: 1.5em;
+        }
+
+        h3 {
+            font-size: 1.3em;
+        }
+
+        p, ul, ol {
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #0645ad;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .reference {
+            font-size: 0.8em;
+            vertical-align: super;
+        }
+
+        .infobox {
+            float: right;
+            width: 250px;
+            border: 1px solid #a2a9b1;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f9f9f9;
+        }
+
+        .infobox h3 {
+            border: none;
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="wiki-container">
+    <h1>Title of the Article</h1>
+    
+    <div class="infobox">
+        <h3>Info Box</h3>
+        <p>This is an infobox, often used on Wikipedia to summarize key details about the article topic.</p>
+    </div>
+
+    <p>This is a summary of the article. Wikipedia usually starts with a brief summary before going into details.<a href="#ref1" class="reference">[1]</a></p>
+
+    <h2>Subheading 1</h2>
+    <p>Content related to subheading 1.</p>
+
+    <h2>Subheading 2</h2>
+    <p>Content related to subheading 2. Wikipedia pages are divided into sections with subheadings to organize content.<a href="#ref2" class="reference">[2]</a></p>
+
+    <h3>Sub-subheading under Subheading 2</h3>
+    <p>More detailed content or subdivisions of content can be put under further subheadings.</p>
+
+    <h2>References</h2>
+    <ol>
+        <li id="ref1">Source 1.</li>
+        <li id="ref2">Source 2.</li>
+    </ol>
+</div>
+
+</body>
+</html>
